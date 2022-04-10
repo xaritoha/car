@@ -17,7 +17,33 @@ ul{
     margin: 0 auto;
     padding: 0 15px;
 }
-.header {
-    height: 700px;
+
+.header__nav{
     background: black;
+    padding: 33px 0;
+}
+.header__nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header__nav-list {
+    display: flex;
+    gap: 30px;
+}
+.logo {
+    font-size: 14px;
+    line-height: 17px;
+    color: white;
+    
+}
+.logo__span {
+    background: #4A90E2;
+    border-radius: 3px;
+    padding: 3px 5px;
+}
+.header__nav-link {
+    font-size: 14px;
+    line-height: 18px;
+    color: white;
 }
