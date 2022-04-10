@@ -17,3 +17,7 @@ ul{
     margin: 0 auto;
     padding: 0 15px;
 }
+.header {
+    height: 700px;
+    background: black;
+}
